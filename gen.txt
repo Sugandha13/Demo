@@ -1,0 +1,16 @@
+ <label for="height">Enter height:</label>
+    <input type="number" id="h" min="10" max="500" >
+    <label for="width">Enter width:</label>
+    <input type="number" id="w" min="10" max="500" >
+    
+
+
+
+<label for="Height">Enter Height:</label>
+    <input type="number" id="Height" name="Enter Height:" min="10" max="500">
+    <label for="Width">Enter Width:</label>
+    <input type="number" id="Width" name="Enter Width:" min="10" max="500"><br>
+
+
+var w=document.getElementById("Width").value;
+var h=document.getElementById("Height").value;
